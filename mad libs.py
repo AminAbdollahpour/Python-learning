@@ -1,0 +1,6 @@
+plural_noun = input("Enter a plural noun: ")
+color = input("Enter a color: ")
+verb = input("Enter a verb: ")
+print(plural_noun+" are red")
+print("violets are "+color)
+print("lets go on a date and then we can "+verb)
