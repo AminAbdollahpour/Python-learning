@@ -1,4 +1,4 @@
-namecovertion = {
+nameconvertion = {
     "mmd": "mohammad",
     "mori": "morteza",
     "ebi": "ebrahim"
