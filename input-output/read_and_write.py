@@ -1,5 +1,11 @@
-our_file = open("game_and_releas_year","r")
+random_file = open("GRY", "r")
 
-print(our_file.readlines()[0])
+for info in random_file.readlines():
+    print(info)
+random_file.close()
 
-our_file.close()
+random_file = open("GRY","a")
+random_file.write("\nI have a pencil.")
+random_file.close()
+
+random_file1 = open("GRY1","w")
