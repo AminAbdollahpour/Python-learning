@@ -89,5 +89,3 @@ class Manager(Employee):
             print('-->', emp.fullname)
 
 
-emp1 = Employee('amin', 'abd', 4000)
-del emp1.fullname
