@@ -7,6 +7,8 @@ class Item:
 
     def __init__(self, name: str, price: float, quantity=0):
         assert quantity >= 0, f'Price {price} is not >= 0'
+        assert len(name) >= 12
+        assert price > 0
         self.__name = name
         self.__price = price
         self.quantity = quantity
